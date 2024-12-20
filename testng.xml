@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="utils.ListenerClass"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test.TC001_CreateAccount"/>
+      <class name="test.TC006_ValidateSearchAndAdd"/>
+      <class name="test.TC008_ValidateAddItemFromBrand"/>
+      <class name="test.TC002_ValidateBrokenLink"/>
+      <class name="test.TC007_ValidateAddItemFromDept"/>
+      <class name="test.TC009_NavigateToCheckOut"/>
+      <class name="test.TC003_ValidateBrokenBottomLink"/>
+      <class name="test.TC004_ValidateSignUp"/>
+      <class name="test.TC005_ValidateMenuOnEachPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

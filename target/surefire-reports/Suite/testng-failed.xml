@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utils.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="test.TC006_ValidateSearchAndAdd">
+        <methods>
+          <include name="lunchBrowser"/>
+          <include name="testDetails"/>
+          <include name="closeBrowser"/>
+          <include name="setup"/>
+          <include name="reportClose"/>
+          <include name="ValidateShoingCart"/>
+          <include name="reportInitilization"/>
+        </methods>
+      </class> <!-- test.TC006_ValidateSearchAndAdd -->
+      <class name="test.TC007_ValidateAddItemFromDept">
+        <methods>
+          <include name="lunchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="testDetails"/>
+          <include name="reportClose"/>
+          <include name="setup"/>
+          <include name="reportInitilization"/>
+          <include name="ValidateShoingCart"/>
+        </methods>
+      </class> <!-- test.TC007_ValidateAddItemFromDept -->
+      <class name="test.TC009_NavigateToCheckOut">
+        <methods>
+          <include name="lunchBrowser"/>
+          <include name="testDetails"/>
+          <include name="closeBrowser"/>
+          <include name="ValidateShoingCart" invocation-numbers="0"/>
+          <include name="reportClose"/>
+          <include name="setup"/>
+          <include name="reportInitilization"/>
+        </methods>
+      </class> <!-- test.TC009_NavigateToCheckOut -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

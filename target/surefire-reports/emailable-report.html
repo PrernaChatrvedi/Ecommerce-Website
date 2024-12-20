@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">991,499</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.TC006_ValidateSearchAndAdd</td><td><a href="#m0">ValidateShoingCart</a></td><td rowspan="1">1734611019673</td><td rowspan="1">65789</td></tr><tr class="failedodd"><td rowspan="1">test.TC007_ValidateAddItemFromDept</td><td><a href="#m1">ValidateShoingCart</a></td><td rowspan="1">1734611143424</td><td rowspan="1">72425</td></tr><tr class="failedeven"><td rowspan="1">test.TC009_NavigateToCheckOut</td><td><a href="#m2">ValidateShoingCart</a></td><td rowspan="1">1734611235809</td><td rowspan="1">54108</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.TC001_CreateAccount</td><td><a href="#m3">CreateAccountTest</a></td><td rowspan="1">1734610967048</td><td rowspan="1">45279</td></tr><tr class="passedodd"><td rowspan="1">test.TC002_ValidateBrokenLink</td><td><a href="#m4">FindBrokenLink</a></td><td rowspan="1">1734611128755</td><td rowspan="1">10389</td></tr><tr class="passedeven"><td rowspan="1">test.TC003_ValidateBrokenBottomLink</td><td><a href="#m5">BottomLinks</a></td><td rowspan="1">1734611296020</td><td rowspan="1">489228</td></tr><tr class="passedodd"><td rowspan="2">test.TC004_ValidateSignUp</td><td><a href="#m6">SignUpTest</a></td><td rowspan="2">1734611788989</td><td rowspan="2">23700</td></tr><tr class="passedodd"><td><a href="#m7">SignUpTest</a></td></tr><tr class="passedeven"><td rowspan="1">test.TC005_ValidateMenuOnEachPage</td><td><a href="#m8">ValidateEachMeuUnderMainmenu</a></td><td rowspan="1">1734611844597</td><td rowspan="1">93980</td></tr><tr class="passedodd"><td rowspan="1">test.TC008_ValidateAddItemFromBrand</td><td><a href="#m9">ValidateShoingCart</a></td><td rowspan="1">1734611092776</td><td rowspan="1">30754</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">test.TC006_ValidateSearchAndAdd#ValidateShoingCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[text()=&apos;See Details&apos;])[1]&quot;}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46d4748e0fa73c8eeac3366639dd3753, findElement {using=xpath, value=(//a[text()=&apos;See Details&apos;])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\prerna\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55992}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55992/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46d4748e0fa73c8eeac3366639dd3753
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at pages.ShoppingCart.ValidateSearchAndAdd(ShoppingCart.java:77)
+	at test.TC006_ValidateSearchAndAdd.ValidateShoingCart(TC006_ValidateSearchAndAdd.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.TC007_ValidateAddItemFromDept#ValidateShoingCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;cart-label&quot;&gt;...&lt;/span&gt; is not clickable at point (1287, 109). Other element would receive the click: &lt;div class=&quot;c-modal-window imp-centered-modal active&quot; tabindex=&quot;-1&quot; data-testid=&quot;centered-modal&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=131.0.6778.140)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1c26f40eca261ab92405479c3f0f4f08, clickElement {id=f.3E63CE69C5B036DF1F1D4686674B423E.d.BB4925EEBDEEE6091D718BA9014EE237.e.450}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\prerna\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57109}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57109/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1c26f40eca261ab92405479c3f0f4f08)] -&gt; xpath: //span[text()=&apos;Cart&apos;]]
+Session ID: 1c26f40eca261ab92405479c3f0f4f08
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at pages.ShoppingCart.cart(ShoppingCart.java:134)
+	at test.TC007_ValidateAddItemFromDept.ValidateShoingCart(TC007_ValidateAddItemFromDept.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test.TC009_NavigateToCheckOut#ValidateShoingCart</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr><tr class="param stripe"><td>prerna27chaturvedi@gmail.com</td><td>Prerna @1234</td><td>Prerna</td><td>Chaturvedi</td><td>5396 North Reese Avenue, Fresno CA 93722</td><td>Fresno</td><td>CA</td><td>93722</td></tr><tr><th colspan="8">Exception</th></tr><tr><td colspan="8"><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;btn btn-lg btn-block btn-primary&quot; type=&quot;button&quot; data-track=&quot;... - Top&quot;&gt;Checkout&lt;/button&gt; is not clickable at point (1151, 492). Other element would receive the click: &lt;div class=&quot;container&quot; role=&quot;document&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=131.0.6778.140)
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d8cb6a5ca8236e2476910e6b51115688, clickElement {id=f.B0E8AB0ED370703BDA31422F88426616.d.D38833B861554EEC6FB3C499E756F946.e.472}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\prerna\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57992}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57992/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d8cb6a5ca8236e2476910e6b51115688)] -&gt; xpath: //button[@class=&apos;btn btn-lg btn-block btn-primary&apos;]]
+Session ID: d8cb6a5ca8236e2476910e6b51115688
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at pages.ShoppingCart.Checkout(ShoppingCart.java:143)
+	at test.TC009_NavigateToCheckOut.ValidateShoingCart(TC009_NavigateToCheckOut.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test.TC001_CreateAccount#CreateAccountTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>Prerna</td><td>Chaturvedi</td><td>prerna27chaturvedi@gmail.com</td><td>Prerna @1234</td><td>Prerna @1234</td><td>9926982443</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">test.TC002_ValidateBrokenLink#FindBrokenLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">test.TC003_ValidateBrokenBottomLink#BottomLinks</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">test.TC004_ValidateSignUp#SignUpTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>prerna27chaturvedi@gmail.com</td><td>Prerna @1234</td><td>ValidEmailAndValidPassword</td><td>prerna27chaturvedi@gmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">test.TC004_ValidateSignUp#SignUpTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>prerna28chaturvedi@gmail.com</td><td>Prerna @7890</td><td>InvalidEmailAndValidPassword</td><td>Choose a sign-in method</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">test.TC005_ValidateMenuOnEachPage#ValidateEachMeuUnderMainmenu</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">test.TC008_ValidateAddItemFromBrand#ValidateShoingCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
